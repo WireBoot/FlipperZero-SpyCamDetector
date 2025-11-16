@@ -1,0 +1,36 @@
+Supported Frequencies
+
+```
+2.4GHz Band:
+• 2400 MHz, 2412 MHz, 2422 MHz, 2437 MHz, 2452 MHz, 2462 MHz
+
+5GHz Band:  
+• 5180 MHz, 5200 MHz, 5240 MHz, 5745 MHz
+
+Specialty Frequencies:
+• 240 MHz, 433.92 MHz
+```
+
+Detection Capabilities
+
+· Signal Types: WiFi cameras, Bluetooth spy devices, proprietary wireless cameras
+· Range: Dependent on Flipper Zero's SubGhz capabilities (typically 50-100m)
+· Accuracy: High precision with frequency-specific threat assessment
+· Response Time: Immediate detection with <1 second alert triggering
+
+User Interface
+
+Main Display
+
+· Header: Application title and version
+· Status Panel: Current scanning state and active frequency
+· Threat Display: Visual threat level indicators and progress bars
+· Statistics: Real-time counters for signals and scan duration
+· Control Hints: Button mapping guidance
+
+Control Scheme
+
+· Right Button: Start/Stop scanning
+· Left Button: Reset statistics and clear history
+· OK Button: Alternative scan toggle
+· Back Button: Safe application exit with auto-scan stop
