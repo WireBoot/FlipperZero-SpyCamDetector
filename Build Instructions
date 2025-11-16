@@ -1,0 +1,23 @@
+To compile this application:
+
+1. Place the folder in your Flipper Zero applications directory
+2. Build using:
+
+```bash
+./fbt fap_spy_camera_detector
+```
+
+The compiled .fap file will be ready for distribution in the build directory.
+
+Release Notes
+
+This v1.1.0 release includes:
+
+· Professional-grade threat detection algorithms
+· Enhanced user interface with visual feedback
+· Improved signal analysis reducing false positives
+· Better resource management and error handling
+· Comprehensive documentation
+· Ready-to-compile code structure
+
+The application is production-ready and represents a significant improvement over the original v1.0.0 release.
