@@ -1,0 +1,66 @@
+Initial Setup
+
+1. Ensure Flipper Zero has fresh batteries
+2. Install application via SD card
+3. Launch from application menu
+
+Scanning Procedure
+
+1. Positioning: Hold device at chest height in area to be scanned
+2. Initiate Scan: Press Right button to start scanning
+3. Movement: Slowly sweep device across room, focusing on suspicious areas
+4. Monitoring: Watch for threat indicators and listen for vibration alerts
+5. Investigation: When threat detected, investigate indicated frequency area
+
+Threat Response Protocol
+
+· Level 1-2 Threats: Conduct visual inspection of area
+· Level 3 Threats: Detailed physical examination recommended
+· Level 4 Threats: Immediate security assessment required
+
+Real-World Applications
+
+🏨 Travel Security
+
+· Hotel room inspections
+· Airbnb and vacation rental safety checks
+· Conference room privacy verification
+
+🏠 Home & Office
+
+· Private residence security audits
+· Office space surveillance detection
+· Locker room and bathroom privacy checks
+
+🔒 Corporate Security
+
+· Executive office protection
+· Board room security assessments
+· Sensitive area monitoring detection
+
+Technical Architecture
+
+Core Components
+
+· SubGhz Integration: Leverages Flipper's radio capabilities for signal analysis
+· View Management: Efficient UI rendering with model-view separation
+· Notification System: Multi-channel alert delivery (vibration, LED, sound)
+· Timer Management: Precise scanning intervals and resource cleanup
+
+Signal Processing
+
+```c
+// Threat assessment algorithm
+1. Frequency matching against known camera databases
+2. RSSI strength evaluation (-75 dBm threshold)
+3. Signal pattern analysis
+4. Threat level calculation (1-4 scale)
+5. Multi-factor confirmation to reduce false positives
+```
+
+Performance Characteristics
+
+· Memory Usage: ~4KB stack size, efficient heap management
+· Battery Impact: Optimized scanning intervals for extended operation
+· Scan Efficiency: 100ms intervals provide real-time responsiveness
+· Accuracy: High detection rate with minimal false positives
