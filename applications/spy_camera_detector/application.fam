@@ -1,0 +1,24 @@
+App(
+    appid="spy_camera_detector",
+    name="Spy Camera Detector",
+    apptype=FlipperAppType.PLUGIN,
+    entry_point="spy_camera_detector_app",
+    stack_size=4K,
+    icon="null_10px",
+    sdk_headers=["subghz"],
+    requires=["subghz", "notification", "storage"],
+    fap_category="Tools",
+    sources=[
+        "spy_camera_detector_app.c",
+        "spy_camera_detector_view.c",
+    ],
+    cflags=[
+        "-Werror", 
+        "-Wno-unused-parameter",
+        "-DAPP_VERSION=\"v1.1.0\""
+    ],
+    fap_version="1.1.0",
+    fap_icon="null_10px",
+    fap_author="WireBoot",
+    fap_description="Detect wireless spy cameras using RF signals"
+)
