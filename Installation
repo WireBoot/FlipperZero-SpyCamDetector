@@ -1,0 +1,17 @@
+Installation
+
+Method 1: FAP File (Recommended)
+
+1. Download spy_camera_detector.fap from Releases
+2. Copy to apps/Tools/ on your Flipper Zero SD card
+3. Launch via: Applications → Tools → Spy Camera Detector
+
+Method 2: Source Compilation
+
+```bash
+# Clone repository
+git clone https://github.com/WireBoot/flipper-zero-spy-camera-detector.git
+
+# Build using Flipper Build Tool
+./fbt fap_spy_camera_detector
+```
