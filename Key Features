@@ -1,0 +1,30 @@
+🔍 Advanced Signal Detection
+
+· Multi-frequency Scanning: Comprehensive coverage of 2.4GHz, 5GHz, 433MHz, and other common surveillance frequencies
+· Real-time Analysis: Continuous signal monitoring with 100ms scan intervals
+· Smart Threat Assessment: Advanced algorithms classify signals based on frequency and strength
+
+🎯 Professional Threat Assessment
+
+· 4-Level Threat System:
+  · Level 1: Weak signal, common frequency
+  · Level 2: Moderate signal or suspicious frequency
+  · Level 3: Strong signal on known camera frequency
+  · Level 4: Very strong signal on confirmed camera frequency
+· Frequency Database: 12 pre-configured threat frequencies from real surveillance devices
+· Signal Strength Analysis: RSSI-based threat evaluation with -75 dBm threshold
+
+📊 Enhanced User Experience
+
+· Visual Feedback: Progress bars, signal strength indicators, and real-time status updates
+· Multi-sensory Alerts:
+  · Vibration patterns for different threat levels
+  · LED color coding (Blue for scanning, Red for threats)
+  · Audio alerts for high-priority detections
+· Statistics Tracking: Scan duration, signals detected, and threat history
+
+🛡️ Professional Security Features
+
+· Reduced False Positives: Advanced filtering algorithms minimize incorrect detections
+· Memory Efficient: Optimized resource usage with proper cleanup
+· Error Resilient: Comprehensive error handling and recovery mechanisms
